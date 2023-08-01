@@ -1,3 +1,4 @@
+/* Body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -5,13 +6,15 @@ body {
     padding: 0;
 }
 
+ /* Header */
 header {
     background-color: #3f33ebea;
     color: rgb(241, 234, 233);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
+/* nav */
 nav {
     background-color: #f4f4f4;
     padding: 10px;
@@ -23,18 +26,20 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #9c9494c2;
-    margin-right: 10px;
+    color: #463b3bab;
+    margin-right: 50px;
 }
 
 nav a:hover {
     color: #666;
 }
 
+/* main */
 main {
     padding: 20px;
 }
 
+/* article */
 article {
     margin-bottom: 30px;
 }
@@ -57,15 +62,18 @@ article p {
     margin: 0;
 }
 
+/* section */
 section {
     margin-bottom: 30px;
 }
 
+/* Imágen */
 img {
     width: 30%;
     height: auto;
 }
 
+/* Video */
 video {
     width: 30%;
     height: auto;
