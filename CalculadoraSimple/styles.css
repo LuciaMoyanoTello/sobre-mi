@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: rgb(221, 190, 149);*/
+    background: linear-gradient(blue,pink);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    padding: 70px;
+}
+
+form{
+    /*background-color:#f3bf66c4;*/
+    background: linear-gradient(white,brown);
+    width: max-content;
+    height: max-content;
+    border: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+/*Donde tiene que poner el número*/
+input[type="text"]{
+    margin-top: 10%;
+    font-size:larger;
+}
+
+/*Título*/
+h1{
+    text-align: center;
+    color: rgb(151, 62, 62);
+    margin: auto;
+    font-family:fantasy;
+}
+
+/*Label*/
+label{
+    color: black;
+    font-style: oblique;
+}
+
+/*Resultado*/
+.resultado{
+    color: black;
+    font-size:x-large;
+}
+
+/*Primer Número*/
+.primernum{
+    color:black;
+}
+
+/*Opciones de para operar*/
+select{
+    font-size: large;
+    cursor: pointer;
+}
+
+/*Botones*/
+input[type="button"]{
+    margin-top: 10%;
+    height: 45px;
+	line-height: 45px;
+	width: 30%;
+    font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+/*Aclaración debajo*/
+h6{
+    font-size:small;
+}
