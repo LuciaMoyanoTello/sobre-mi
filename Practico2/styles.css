@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /*Imágen fondo de pantalla*/
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url('./assets/fondoPantalla2.jpeg');
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+    color: #fff;
+
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grilla_principal{
+    display: grid;
+    background-color:rgba(53, 49, 59, 0.87);
+    align-items: center;
+    text-align: center;
+    grid-template-rows: auto auto auto auto;
+    border: 2px solid black;
+}
+.grilla_batalla{
+    display: grid;
+    background-color: rgba(46, 139, 86, 0.301);
+    grid-template-rows: auto auto; 
+}
+.batalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    padding: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.campo_batalla{
+    margin: 25px;
+}
+.text_mensajes{
+    font-size: 45px;
+}
+.img_ataque{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.img_ataque:hover{
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    cursor: pointer;
+    margin: 18px;
+}
+h1{
+    color: crimson;
+}
+button{
+    text-align: center;
+    background-color: darkslateblue;
+    color:blanchedalmond;
+    text-transform: uppercase;
+}
+.contador{
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+.resultado_final{
+    color: red;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+}
+.resultado{
+    text-transform: uppercase;
+}

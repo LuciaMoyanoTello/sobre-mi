@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <!--STYLES-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grilla_principal">
+        <!--TÍTULO-->
+        <h1>Piedra, Papel o Tijera</h1>
+        <p>Puede jugar al mejor de 5 intentos. Si alcanza 3 victorias gana. </p>
+    
+        <!--NOMBRE USUARIO-->
+        <div class="nombre_usuario">
+            <h3 id="texto_principio">Ingrese su nombre</h3>
+            <input type="text" name="nombre" id="nombre">
+            <button id="comenzar">Comenzar</button>
+        </div>
+
+        <!--PIEDRA, PAPEL O TIJERA-->
+        <h2>Elija piedra, papel o tijera</h2>
+
+        <!--IMÁGENES-->
+        <div id="imagenes" class="imagenes">
+            <img id="piedra" class="img_ataque" src="assets\piedra.png" alt="">
+            <img id="papel" class="img_ataque" src="assets\papel.png" alt="">
+            <img id="tijera" class="img_ataque" src="assets\tijera.png" alt="">
+        </div>
+    
+        <div class="grilla_batalla">
+            <!--BATALLA-->
+            <div id="batalla" class="batalla">
+            <div id="usuario" class="campo_batalla"></div>
+            <div class="campo_batalla"><p class="text_mensajes">VS</p></div>
+            <div id="computadora" class="campo_batalla"></div>
+            </div>
+
+            <!--CUADRO DE CONTADOR-->
+            <div id="contador" class="contador">
+                <div id="contador_usuario" class="contadores">Contador Usuario</div>
+                <div id="contador_computadora" class="contadores">Contador Computadora</div>
+                <div id="contador_empate" class="contadores">Contador Empate</div>
+            </div>
+        </div>
+
+        <!--RESULTADO-->
+        <div class="resultado">
+            <p id="resultado" class="text_mensajes"></p>
+        </div>
+
+        <!--RESULTADO FINAL-->
+        <div class="resultado_final">
+            <h1><p id="resultado_final">RESULTADO FINAL: </p></h1>
+        </div>
+        <!--REINICIAR-->
+        <div class="reiniciar">
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
