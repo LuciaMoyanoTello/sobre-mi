@@ -17,7 +17,7 @@ header {
 /* nav */
 nav {
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: auto;
     /*para los logos de instagram y GitHub*/
     width: 400px;
     border-radius: 10px;
@@ -25,9 +25,11 @@ nav {
 }
 
 nav a {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
     text-decoration: none;
     color: #0b0eb9ab;
-    margin-right: 100px;
+    margin-right: auto;
 }
 
 nav a:hover {
